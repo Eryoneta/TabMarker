@@ -7,14 +7,14 @@
 	"background": {
 	   "service_worker": "background.js"
 	},
-	"options_page": "options.html",
+	"options_page": "view/options.html",
 	"permissions": [
 		"tabs",
 		"storage",
 		"scripting"
 	],
 	"incognito": "split",
-	"browser_action": {
+	"action": {
 		"title": "Save and organize tabs"
 	}
 }
