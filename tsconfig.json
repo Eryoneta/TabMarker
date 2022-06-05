@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+     "strict": true,
+     "module": "commonjs",
+     "target": "es2016",
+     "esModuleInterop": true,
+     "sourceMap": true,
+     "allowJs": true,
+     "rootDir": "main/src",
+     "outDir": "dist/src",
+     "noEmitOnError": true,
+     "typeRoots": [ "node_modules/@types" ]
+  },
+  "exclude": ["node_modules", "webpack", "dist"]
+}

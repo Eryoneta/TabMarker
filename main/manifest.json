@@ -1,0 +1,20 @@
+{
+	"manifest_version": 3,
+	"name": "TabMarker",
+	"version": "0.1.0",
+	"description": "Saves and organizes tabs.",
+	"author": "Yo",
+	"background": {
+	   "service_worker": "background.js"
+	},
+	"options_page": "options.html",
+	"permissions": [
+		"tabs",
+		"storage",
+		"scripting"
+	],
+	"incognito": "split",
+	"browser_action": {
+		"title": "Save and organize tabs"
+	}
+}
